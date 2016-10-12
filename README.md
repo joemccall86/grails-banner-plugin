@@ -46,3 +46,9 @@ Modify your `build.gradle` file with the following dependency:
 ```
 compile 'org.grails.plugins:banner:0.1'
 ```
+
+## Also See
+
+http://mrhaki.blogspot.com/2015/04/grails-goodness-add-banner-to-grails.html
+
+This is probably the better way to do this, but plugins only have so much say in what happens. I'm still figuring out if I can hook into the Application class itself to set the banner property.
