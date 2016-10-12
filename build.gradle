@@ -11,8 +11,8 @@ buildscript {
     }
 }
 
-version "0.1-SNAPSHOT"
-group "banner"
+version "0.1"
+group "org.grails.plugins"
 
 apply plugin:"eclipse"
 apply plugin:"idea"
@@ -47,16 +47,13 @@ dependencies {
     testCompile "org.grails:grails-plugin-testing"
 }
 grailsPublish {
-    // TODO: Provide values here
-    user = 'user'
-    key = 'key'
-    githubSlug = 'foo/bar'
+    githubSlug = 'joemccall86/grails-banner-plugin'
     license {
         name = 'Apache-2.0'
     }
-    title = "My Plugin"
-    desc = "Full plugin description"
-    developers = [johndoe:"John Doe"]
+    title = "Banner Plugin"
+    desc = "Prints an informational banner upon startup"
+    developers = [joemccall:"Joe McCall"]
     portalUser = ""
     portalPassword = ""    
 }
